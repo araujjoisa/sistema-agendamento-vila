@@ -1,0 +1,6 @@
+CREATE TABLE reservas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    espaco VARCHAR(100) NOT NULL,
+    data DATE NOT NULL
+);
